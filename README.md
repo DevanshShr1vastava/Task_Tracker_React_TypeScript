@@ -1,50 +1,17 @@
-# React + TypeScript + Vite
+##### React Typescript Task Tracker Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- add or remove tasks
+- change status of task
+- filter tasks by completed or incomplete
 
-Currently, two official plugins are available:
+#### UI Demonstration 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![UIDemo-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f4ea93f4-4917-43b5-b724-ce7a3f38df65)
 
-## Expanding the ESLint configuration
+#### Adding a task
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![AddingTask-ezgif com-crop (1)](https://github.com/user-attachments/assets/bf1c1606-5290-4be4-9fd5-cec0e2c85625)
 
-- Configure the top-level `parserOptions` property like this:
+#### Deleting tasks
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![DeletingTask-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2e3b2112-d213-4004-8172-212d92726603)
